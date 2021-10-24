@@ -2,7 +2,7 @@ import React,{Fragment} from 'react'
 import cardImg1 from '../../src/Images/thisisengineering-raeng-5Vb9SeLbiWw-unsplash.jpg'
 import cardImg2 from '../../src/Images/american-public-power-association-Ibvf-7yMjRE-unsplash.jpg'
 import cardImg3 from '../../src/Images/andreas-gucklhorn-7razCd-RUGs-unsplash.jpg'
-import cardImg4 from '../../src/Images/q-u-i-0G01UI1MQhg-unsplash.jpg'
+import cardImg4 from '../../src/Images/markus-spiske-Yoi8R1nnBtA-unsplash.jpg'
 const Issues = () => {
 
      const cards = [{

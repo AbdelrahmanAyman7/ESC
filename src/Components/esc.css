@@ -64,7 +64,7 @@
   text-align: left !important;
   width: 50%;
   margin-right: auto;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 800;
   text-transform: capitalize;
 }
@@ -84,10 +84,12 @@
   font-size: 20px;
   font-weight: 700;
   text-align: left;
-  margin-right: auto;
+  margin-right: 50rem;
+  text-decoration: none;
 }
 .Donate:hover {
   background-color: #285aeb;
+  color: white;
 }
 /* ESC */
 #esc {
@@ -147,7 +149,7 @@ h5 {
   font-weight: 700 !important;
 }
 /* Services */
-#service1Img {
+.serviceImg {
   height: 55vh;
   width: 100%;
   margin-left: auto;
@@ -264,8 +266,9 @@ h5 {
   font-weight: 700 !important;
 }
 
+/* footer */
 .social {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -276,24 +279,26 @@ h5 {
 }
 .downLogo {
   text-align: left;
-  margin-left: 3rem;
+  margin-left: 7rem;
   margin-top: 1rem;
+  font-size: 13px;
 }
+
+/* contact */
 .contactUs {
   width: 33%;
   height: 100%;
 }
-.info {
-  margin-top: 5rem;
-  padding: 2rem;
-}
+
 .contactUs a {
   display: block;
   color: #000000;
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  text-align: left;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-right: 5rem;
 }
 .phone {
   color: #000000;
@@ -304,6 +309,7 @@ h5 {
   text-decoration: none;
 }
 
+/* services */
 .footerLinks {
   width: 38%;
   height: 100%;
@@ -314,7 +320,7 @@ h5 {
   margin-left: 0rem;
 }
 .serviceLinks {
-  padding: 2rem;
+  padding: 3rem;
 }
 .socialContainer {
   width: 33%;
@@ -325,13 +331,16 @@ h5 {
 .socialList {
   list-style: none;
   cursor: pointer;
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 .socialList li {
   display: inline-block;
   margin: 10px;
   width: 50px;
   height: 50px;
+}
+.socialList a {
+  text-decoration: none;
 }
 #twitter {
   color: #1da1f2;
@@ -364,7 +373,7 @@ h5 {
   height: 36px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 770px) {
   .navbar-nav {
     padding: 0rem 1rem;
     font-size: 14px;
@@ -375,24 +384,25 @@ h5 {
     font-weight: 600;
   }
   .myLogo {
-    margin-right: 9rem;
+    margin-right: auto;
   }
   .navbar-toggler {
-    padding: 1px 3px !important;
+    padding: 0px 1px !important;
     margin-top: 1px;
   }
   .d-block {
     height: 80vh;
   }
   .carousel-caption h2 {
-    font-size: 16px;
+    font-size: 17px;
     height: auto !important;
     width: 100% !important;
-    margin-bottom: 0rem;
+    margin-bottom: 0.5rem;
   }
   .Donate {
-    padding: 0.5rem 1rem;
-    font-size: 17px;
+    padding: 0.3rem 1rem;
+    font-size: 16px;
+    margin-left: 43rem;
   }
   #esc {
     font-size: 18px;
@@ -416,7 +426,7 @@ h5 {
     margin-left: 0;
   }
 
-  #service1Img {
+  .serviceImg {
     height: 40vh;
   }
   .card {
@@ -434,16 +444,47 @@ h5 {
     font-size: 14px;
   }
   .social {
-    display: inline-block;
-    text-align: center !important;
-  }
-  .contactUs {
-    /* width: 100%; */
-  }
-  .footerLinks {
-    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
   }
   .socialContainer {
-    /* width: 100%; */
+    width: 100%;
+    height: 20%;
+  }
+  .socialList {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+  }
+  .socialList a {
+    text-decoration: none;
+  }
+  .footerLinks {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin-bottom: 10rem;
+  }
+  .contactUs {
+    width: 100%;
+    height: 20%;
+  }
+  .contactUs a {
+    text-align: center;
+    margin-left: 5rem;
+  }
+  .downLogo {
+    width: 0;
+    font-size: 12px;
+    margin-right: 14rem;
   }
 }
